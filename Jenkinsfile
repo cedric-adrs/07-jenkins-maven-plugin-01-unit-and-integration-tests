@@ -7,11 +7,11 @@ pipeline {
     
     stages {
     	 
-	   stage ('Clone') {
-            steps {
-                git branch: 'main', url: "https://github.com/cedric-adrs/07-jenkins-maven-plugin-01-unit-and-integration-tests"
-            }
-	    }
+	//    stage ('Clone') {
+    //         steps {
+    //             git branch: 'main', url: "https://github.com/cedric-adrs/07-jenkins-maven-plugin-01-unit-and-integration-tests"
+    //         }
+	//     }
 	 
 	   stage('Build & Unit test'){
 		  steps {
